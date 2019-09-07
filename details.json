@@ -1,7 +1,7 @@
 {
 	"name" : "Plugin Test",
- 	"version" : "1.1",
- 	"download_url" : "https://florian-valois.com/plugin-test.zip",
+ 	"version" : "1.2",
+ 	"download_url" : "https://github.com/FlorianValois/plugin-test/archive/master.zip",
 
 	"homepage": "http://example.com/",
 	"requires": "4.5",
