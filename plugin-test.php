@@ -24,7 +24,7 @@ define( 'BPW_PLUGIN_DIR', untrailingslashit( dirname( BPW_PLUGIN ) ) );
 require_once BPW_PLUGIN_DIR . '/plugin-update-checker/plugin-update-checker.php';
 
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/FlorianValois/plugin-test/blob/master/details.json',
+	'https://raw.githubusercontent.com/FlorianValois/plugin-test/master/details.json',
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'plugin-test'
 );
