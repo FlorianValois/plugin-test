@@ -8,7 +8,7 @@ Author: Florian Valois
 Author URI: https://florian-valois.com
 Text Domain: plugin-test
 Domain Path: /languages
-GitHub Plugin URI: https://github.com/FlorianValois/plugin-test
+GitHub Plugin URI: 
 */
 
 if (!defined('ABSPATH')) {
