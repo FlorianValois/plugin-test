@@ -3,7 +3,7 @@
 Plugin Name: Plugin Test
 Plugin URI: 
 Description: A boilerplate plugin for WordPress with many options 
-Version: 1.0.8
+Version: 1.0.9
 Author: Florian Valois
 Author URI: https://florian-valois.com
 Text Domain: plugin-test
@@ -28,5 +28,3 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'plugin-test'
 );
-
-$myUpdateChecker->setBranch('master');

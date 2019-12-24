@@ -30,6 +30,9 @@ Answer to foo bar dilemma.
 
 == Changelog ==
 
+= 1.0.9 =
+* Change github check
+
 = 1.0 =
 * A change since the previous version.
 * Another change.
