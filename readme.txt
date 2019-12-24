@@ -1,6 +1,6 @@
 === Plugin Test ===
-Contributors: florianvalois
-Tags: wordpress, database
+Contributors: FlorianValois
+Tags: 
 Requires at least: 4.0
 Tested up to: 5.3
 Stable tag: 4.5
