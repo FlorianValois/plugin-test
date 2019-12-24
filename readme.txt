@@ -30,6 +30,9 @@ Answer to foo bar dilemma.
 
 == Changelog ==
 
+= 1.0.10 =
+* Add function to add link in plugin meta
+
 = 1.0.9 =
 * Change github check
 

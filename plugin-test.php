@@ -3,7 +3,7 @@
 Plugin Name: Plugin Test
 Plugin URI: 
 Description: A boilerplate plugin for WordPress with many options 
-Version: 1.0.10
+Version: 1.0.11
 Author: Florian Valois
 Author URI: https://florian-valois.com
 Text Domain: plugin-test
@@ -28,3 +28,17 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'plugin-test'
 );
+
+add_filter( 'plugin_row_meta', 'wk_plugin_row_meta', 10, 2 );
+function wk_plugin_row_meta( $links, $file ) {    
+    if ( BPW_PLUGIN_BASENAME == $file ) {
+			var_dump($links);
+//			var_dump($file);
+        $custom_link = array(
+          'docs'    => '<a href="' . esc_url( 'https://webkul.com/blog/' ) . '" target="_blank" aria-label="' . esc_attr__( 'Plugin Additional Links', 'domain' ) . '" style="color:green;">' . esc_html__( 'Docs', 'domain' ) . '</a>'
+        );
+ 
+        return array_merge( $links, $custom_link );
+    }
+    return (array) $links;
+}
