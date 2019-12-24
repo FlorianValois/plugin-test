@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: FlorianValois
+Contributors: florianvalois
 Donate link: https://example.com/
 Tags: wordpress, database
 Requires at least: 4.0

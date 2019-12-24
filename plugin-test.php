@@ -3,7 +3,7 @@
 Plugin Name: Plugin Test
 Plugin URI: 
 Description:  A boilerplate plugin for WordPress with many options 
-Version: 1.0.5
+Version: 1.0.6
 Author: Florian Valois
 Author URI: https://florian-valois.com
 Text Domain: plugin-test
