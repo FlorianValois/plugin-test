@@ -3,12 +3,12 @@
 Plugin Name: Plugin Test
 Plugin URI: 
 Description:  A boilerplate plugin for WordPress with many options 
-Version: 1.0.1
+Version: 1.0.2
 Author: Florian Valois
 Author URI: https://florian-valois.com
 Text Domain: plugin-test
 Domain Path: /languages
-GitHub Plugin URI: 
+GitHub Plugin URI: https://github.com/FlorianValois/plugin-test/archive/master.zip
 */
 
 if (!defined('ABSPATH')) {
